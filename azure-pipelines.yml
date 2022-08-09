@@ -25,7 +25,7 @@ steps:
   inputs:
     verbose: false
 
-- script: './node_modules/.bin/node-sass Tailspin.Spacegame.Web/wwwroot --output Tailspin.Spacegame.Web/wwwroot'
+- script: './node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot'
   displayName: 'compile Sass assets'
 
 - task: gulp@1
